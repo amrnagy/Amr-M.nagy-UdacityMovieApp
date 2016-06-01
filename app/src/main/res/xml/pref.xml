@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- pref_units_options = values which will choose in setting menu-->
+    <!-- pref_units_values = values which will return if we choose popular, top rated, favourite-->
+    <ListPreference
+        android:title="@string/pref_units_label"
+        android:key="@string/pref_units_key"
+        android:defaultValue="@string/pref_units_popular"
+        android:entries="@array/pref_group_options"
+        android:entryValues="@array/pref_group_values"
+        />
+
+</PreferenceScreen>
