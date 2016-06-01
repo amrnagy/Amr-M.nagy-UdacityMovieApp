@@ -51,7 +51,7 @@ public class MovieData {
             }
 
             Movies_URL += path;
-            //String key = "1d077c24e2ef3f5e88b42da8af52ee3b";
+            //String key = "";
             Uri builtUri = Uri.parse(Movies_URL).buildUpon()
                     .appendQueryParameter("api_key", key)
                     .build();
@@ -271,7 +271,7 @@ public class MovieData {
         try {
 
             String Review_URL = "http://api.themoviedb.org/3/movie/" + id + "/reviews";
-            String key = "";
+            String key = "1d077c24e2ef3f5e88b42da8af52ee3b";
             Uri builtUri = Uri.parse(Review_URL).buildUpon()
                     .appendQueryParameter("api_key", key)
                     .build();

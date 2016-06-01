@@ -11,7 +11,7 @@ import com.amr.udacitymovieapp.Models.MovieItem;
 import java.util.ArrayList;
 
 /**
- * Created by Ismael on 15/06/2015.
+ * Created by amr on 26/5/2016.
  */
 public class MovieDbHelper extends SQLiteOpenHelper {
 

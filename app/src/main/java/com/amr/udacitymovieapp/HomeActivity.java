@@ -3,6 +3,9 @@ package com.amr.udacitymovieapp;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 
+/**
+ * Created by Amr on 5/26/2016.
+ */
 public class HomeActivity extends ActionBarActivity {
 
     boolean inTwoPane;

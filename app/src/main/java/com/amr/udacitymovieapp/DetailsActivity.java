@@ -6,6 +6,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ * Created by Amr on 5/26/2016.
+ */
 public class DetailsActivity extends ActionBarActivity {
 
 

@@ -29,8 +29,9 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
+
 /**
- * A placeholder fragment containing a simple view.
+ * Created by Amr on 5/26/2016.
  */
 public class HomeActivityFragment extends Fragment {
 
